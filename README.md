@@ -2,6 +2,8 @@
 
 This is a Java Swing-based 2D Drawing Application built using `Graphics2D`, designed for freehand creation of basic shapes like lines, ovals, and rectangles with customizable styles and interactions.
 
+---
+
 ## 🛠 Features
 
 -   **Shape Drawing**  
@@ -27,16 +29,34 @@ This is a Java Swing-based 2D Drawing Application built using `Graphics2D`, desi
     -   Cursor coordinates displayed live at the bottom of the window.
     -   Mouse dragging supported for smooth drawing.
 
+---
+
 ## 📁 Project Structure
 
--   `DrawingApplicationFrame.java` – The main window containing all UI logic.
--   `DrawPanel.java` – Handles drawing logic and mouse events.
--   `MyShapes` and its subclasses – Abstract representations of Line, Rectangle, and Oval.
--   `Java2dDrawingApplication.java` – Main entry point for launching the application.
+-   `DrawingApplicationFrame.java` – Main window with all UI logic
+-   `DrawPanel.java` – Handles drawing, painting, and user interaction
+-   `MyShapes` (and subclasses) – Base class for Line, Rectangle, and Oval
+-   `Java2dDrawingApplication.java` – Entry point for launching the app
+
+---
+
+## 📸 Demonstration
+
+**🎥 Drawing Features – Part 1**  
+<img src="./Drawing_1.gif" width="400" title="Basic Drawing Tools and Style Options">
+
+**🎥 Drawing Features – Part 2**  
+<img src="./Drawing_2.gif" width="400" title="More Shape Customization and Interaction Flow">
+
+---
 
 ## 📝 Notes
 
-I built this a while back to practice GUI development and Java 2D graphics. The project helped me get comfortable with event-driven design and the flexibility of shape customization using paint and stroke configurations.
+I built this project to deepen my understanding of GUI development in Java. It helped me grasp:
+
+-   Event-driven programming with Swing
+-   Real-time drawing with `Graphics2D`
+-   Modular shape abstraction and UI/logic separation
 
 ---
 
