@@ -43,10 +43,10 @@ This is a Java Swing-based 2D Drawing Application built using `Graphics2D`, desi
 ## 📸 Demonstration
 
 **🎥 Drawing Features – Part 1**  
-<img src="./Drawing_1.gif" width="400" title="Basic Drawing Tools and Style Options">
+<img src="./Drawing_1.gif" width="600" title="Basic Drawing Tools and Style Options">
 
 **🎥 Drawing Features – Part 2**  
-<img src="./Drawing_2.gif" width="400" title="More Shape Customization and Interaction Flow">
+<img src="./Drawing_2.gif" width="600" title="More Shape Customization and Interaction Flow">
 
 ---
 
